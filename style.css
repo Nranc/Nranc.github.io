@@ -1,0 +1,212 @@
+html, body {
+
+background-color: #879eff;	
+margin-right:5%;
+margin-left:5%;	
+margin-top: 5%;
+}
+
+body{
+	
+	border-radius:50px;
+}
+
+/*background = header + about + content*/
+#background{
+/*border: 1px solid black;*/
+background-color: #ffffff;
+margin-bottom: 5%;
+padding: 1%; 
+
+border-radius:50px;
+            
+}
+
+/*Photo and name*/
+.header{
+	width:30%;
+	margin-bottom: 3%;
+	margin-right:35%;
+	margin-left:35%;
+	padding: auto;
+}
+
+
+/*Introduce sentence / Search for a job*/
+.about{
+	font-size: 1em;	
+	margin-right:30%;
+	padding: 1%;
+	/*border: 1px solid black;*/
+}
+
+/*All content in body except about and header*/
+.content{
+	display: flex;
+    justify-content: center;
+    	
+}
+
+/*Section left*/
+.left{
+    width: 60%;	
+    padding: 1%;
+    /*border: 1px solid black;*/
+}
+
+.type_value{
+	padding: 3%;
+	display: flex;
+    flex-direction: row;
+}
+
+.type_value .year_background{
+	width: 20%;	
+	 
+	/*border: 1px solid black;*/
+}
+
+.type_value .year{
+	font-weight: 600;
+	color: #000000;
+	
+}
+
+.type_value .education{
+	color: #000000;
+	width: 80%;	
+	
+	padding: 5%; 
+	
+    background: #e8e8e8;
+	/*border: 1px solid black;*/
+}
+
+.strong{
+font-weight: 900;		
+}
+
+/*Company : Place / Name / Year*/
+.company{
+	padding: 2%; 
+	background: #e8e8e8;
+	margin-bottom: 2%;
+}
+.place{
+	font-size: 1.2em;
+	font-weight: 800;
+	text-align:left;		
+}
+.year{
+	color:#7d7d7d;
+}
+
+#thales{
+	width: 30%;
+	height: 25%;
+	float: right;
+}
+
+.rc{
+		clear: both;	
+}
+
+.job{
+	margin-left: 5%;
+	margin-bottom: 3%;
+	
+}
+
+.assignment{
+	font-weight: 900;
+	
+}
+.description{
+	font-style: oblique;
+	
+}
+
+/*Section right*/
+.right{
+	width: 40%;
+	padding: 1%;
+	/*border: 1px solid black;	*/
+}
+
+.contact{
+font-size: 1.2em;
+font-weight: 800;
+}
+
+.contact{
+	padding:1%;
+	margin:2%;	
+}
+
+ul h3
+{
+	font-size: 1.2em;
+    font-weight: 600;
+}
+
+.skill il{	
+	 padding:1%;
+	 border-radius: 10px;
+	 background: #4970f6;
+	 color: white;
+	
+}
+
+.language_id{
+	font-size: 1.2em;
+	font-weight: 600;
+	margin-right:15%;    
+}
+
+.language_value{
+	font-style: oblique;
+}
+
+
+.interest{
+font-size: 1.2em;
+font-weight: 600;
+}
+.sport{
+	
+	display: flex;	
+}
+.sport il{
+	margin:2%;
+	color: #4d4d4d;
+	font-weight: 600;
+}
+
+#strava{
+	width: 20%;
+	height: 15%;
+	float: right;
+	paddin-bottom: 5%;	
+}
+
+
+
+/*Title of each category*/
+.rubric{
+	color: #22307c;
+  font-size: 1.5em;
+  font-weight: bold;
+ /* text-transform: uppercase;	*/
+	
+}
+
+aside{
+margin-bottom: 10%;
+	
+
+	}
+
+il{
+	/*border: 1px solid black;*/
+	
+}
