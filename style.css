@@ -25,17 +25,40 @@ border-radius:50px;
 
 /*Header + Contacts*/
 #id{
+	margin-top:3%;
 	display: flex;
-    justify-content: center;
+    justify-content: center; 
+    margin-left: 10%;
+    margin-right: 10%;
     
-    
-	
 }
 /*Photo and name*/
 .header{
 	margin-bottom: 3%;
 	padding: auto;
-	    margin-right:10%;
+	margin-right:30%;
+	
+}
+
+.header img{
+	 margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    display: block;
+}
+
+.contact{
+	
+font-size: 1.2em;
+font-weight: 800;
+margin:2%;
+}
+
+.contacts{
+}
+
+.contact span{
+	margin-right:3%;	
 	
 }
 
@@ -57,7 +80,7 @@ border-radius:50px;
 
 /*Section left*/
 .left{
-    width: 60%;	
+    width: 55%;	
     padding: 1%;
     /*border: 1px solid black;*/
 }
@@ -137,18 +160,9 @@ font-weight: 900;
 /*Section right*/
 .right{
 	width: 40%;
+	margin-left:5%;
 	padding: 1%;
 	/*border: 1px solid black;	*/
-}
-
-.contact{
-font-size: 1.2em;
-font-weight: 800;
-}
-
-.contact{
-	padding:1%;
-	margin:2%;	
 }
 
 ul h3
@@ -160,18 +174,15 @@ ul h3
 .bars {
 	width: 95%;
 	float: left;
-	padding: 0;
 	text-align: left;
-	margin-bottom: 10%;
 	
 }
 .bars .skills {
-  	margin-top: 36px;
+	display: flex;
    
 }
 .bars li {
 	position: relative;
-  	margin-bottom: 1%;
   	background: #ccc;
   	height: 20px;
   	border-radius: 3px;
@@ -184,15 +195,18 @@ ul h3
    letter-spacing: 2px;
 	font-weight: 400;
    position: relative;
-	top: -26px;
+	top: -105%;
+
 }
 .bar-expand {
    position: absolute;
    background: #000054;
    display: inline-block;
-   height: 20px;
-   line-height: 20px;
+   height: 100%;
+   line-height:100%;
    border-radius: 3px 0 0 3px;
+   margin-bottom: 10%;
+   
 }
 
 .C__ {
@@ -215,7 +229,7 @@ ul h3
   	width: 60%;
 }
 .PHP {
-  	width: 35%;
+  	width: 25%;
 }
 .SQL {
   	width: 25%;
@@ -269,6 +283,7 @@ font-weight: 600;
 }
 
 aside{
+	clear: both;
 margin-bottom: 10%;
 	
 
