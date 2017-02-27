@@ -157,6 +157,76 @@ ul h3
 	
 }
 
+
+
+.bars {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: left;
+	margin-bottom: 10%;
+	
+}
+.bars .skills {
+  	margin-top: 36px;
+   
+}
+.bars li {
+    position: relative;
+  	margin-bottom: 1%;
+  	background: #ccc;
+  	height: 20px;
+  	border-radius: 3px;
+  	margin-top: 10%;
+}
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #000000;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: 400;
+   position: relative;
+	top: -26px;
+}
+.bar-expand {
+   position: absolute;
+   background: #000054;
+   display: inline-block;
+   height: 20px;
+   line-height: 20px;
+   border-radius: 3px 0 0 3px;
+}
+
+.C__ {
+  	width: 80%;
+}
+
+.C {
+  	width: 80%;
+}
+.JAVA {
+  	width: 30%;
+}
+.MATLAB {
+  	width: 70%;
+}
+.Javascript {
+  	width: 30%;
+}
+.HTML {
+  	width: 60%;
+}
+.PHP {
+  	width: 35%;
+}
+.SQL {
+  	width: 25%;
+}
+.Linux {
+  	width: 75%;
+}
+
+
 .language_id{
 	font-size: 1.2em;
 	font-weight: 600;
