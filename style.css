@@ -22,13 +22,21 @@ border-radius:50px;
             
 }
 
+
+/*Header + Contacts*/
+#id{
+	display: flex;
+    justify-content: center;
+    
+    
+	
+}
 /*Photo and name*/
 .header{
-	width:30%;
 	margin-bottom: 3%;
-	margin-right:35%;
-	margin-left:35%;
 	padding: auto;
+	    margin-right:10%;
+	
 }
 
 
@@ -149,16 +157,6 @@ ul h3
     font-weight: 600;
 }
 
-.skill il{	
-	 padding:1%;
-	 border-radius: 10px;
-	 background: #4970f6;
-	 color: white;
-	
-}
-
-
-
 .bars {
 	width: 95%;
 	float: left;
@@ -172,7 +170,7 @@ ul h3
    
 }
 .bars li {
-    position: relative;
+	position: relative;
   	margin-bottom: 1%;
   	background: #ccc;
   	height: 20px;
