@@ -1,12 +1,7 @@
-html{
-	
-}
-	
 body {
-	background-image: url(images/fond.jpeg);
+	background-image: url("images/fond.jpeg");
 	background-repeat: no-repeat;
-	background-size: auto,auto;
-	
+	background-size: auto,auto;	
 }
 
 
