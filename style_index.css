@@ -202,7 +202,7 @@ footer{
   /*define mobile specific styles come here */
 @media only screen and (max-device-width: 480px) {
    body { 
-    background: url(images/fond.jpeg); 
+    background: url("images/fond.jpeg"); 
     background-repeat: no-repat;
     background-size: auto,auto;
     
