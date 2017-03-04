@@ -1,7 +1,18 @@
 body {
 	background-image: url("images/fond.jpeg");
 	background-repeat: no-repeat;
-	background-size: auto,100%;	
+
+	
+	 background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+	
+	
+	@media only screen and (max-device-width: 480px) {
+		body{
+	        background-attachment: scroll;
+		}
+    }
 }
 
 
@@ -199,7 +210,24 @@ footer{
 }
 
 
-  
+@media only screen and (max-device-width: 480px) {
+     body {
+         
+     }
+    .container {
+          padding: 0px 10px 5px 10px !important;
+     }
+     .header {
+          font-size: 16px !important;
+     }
+     .headline {
+          font-size: 20px !important;
+     }
+     #screenshot_image {
+          width: 275px;
+          height: 190px;
+     }
+}
 
 
 
