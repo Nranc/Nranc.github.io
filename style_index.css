@@ -19,6 +19,9 @@ body {
 		body{
 	           background-attachment: scroll;	     
 		}	
+		.menuliste{
+		width:200px;
+		}
     }
 
 
