@@ -204,7 +204,8 @@ footer{
    body { 
     background: url("images/fond.jpeg"); 
     background-repeat: no-repeat;
-    background-size: auto,auto;
+    width:400px;
+    height:600px;
     
   }
 }
