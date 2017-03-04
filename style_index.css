@@ -199,22 +199,7 @@ footer{
 }
 
 
-  /*define mobile specific styles come here */
-@media only screen and (max-device-width: 480px) {
-	html{
-	    background: url("images/fond.jpeg"); 
-    background-repeat: no-repeat;
-    width:400px;
-    height:600px;
-	
-	}
-	
-   body { 
-
-    
-  }
-}
-
+  
 
 
 
