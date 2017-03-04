@@ -13,13 +13,7 @@ body {
 	
 	text-align:center;
 	letter-spacing: 0.5em;
-	font-family: Futura,Trebuchet MS,Arial,sans-serif;
-	
-	
-	animation: fadein 8s;
-	-moz-animation: fadein 8s; /* Firefox */
-	-webkit-animation: fadein 8s; /* Safari et Chrome */
-	-o-animation: fadein 8s; /* Opera */
+	font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 
@@ -203,6 +197,23 @@ footer{
         opacity: 0.7;
     }
 }
+
+
+  /*define mobile specific styles come here */
+@media only screen and (max-device-width: 480px) {
+   body { 
+    background: url(images/fond.jpeg); 
+    width: 400px; 
+  }
+}
+
+
+
+
+
+
+
+
 
 
 
