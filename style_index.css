@@ -19,6 +19,11 @@ body {
 		body{
 	           background-attachment: scroll;	     
 		}	
+		.menuliste{
+		overflow-x: auto;
+		display: block;
+		}
+		
 		
     }
 
@@ -59,15 +64,6 @@ body {
 	
 }
 
-
-
-.menu {
-width:70%;
-text-align:center;
-margin-left: auto;
-margin-right: auto;
-
-} 
 
 
 .menuliste{
