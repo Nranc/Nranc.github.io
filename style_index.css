@@ -1,0 +1,211 @@
+html{
+	
+}
+	
+body {
+	background-image: url(images/fond.jpeg);
+	background-repeat: no-repeat;
+	background-size: auto,auto;
+	
+}
+
+
+
+.main{
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 10%;
+	
+	text-align:center;
+	letter-spacing: 0.5em;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	
+	
+	animation: fadein 8s;
+	-moz-animation: fadein 8s; /* Firefox */
+	-webkit-animation: fadein 8s; /* Safari et Chrome */
+	-o-animation: fadein 8s; /* Opera */
+}
+
+
+.main h1{
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 1em;
+	
+	color:  white;
+	
+	/*target="_blank*/
+	
+}
+
+.main h2{
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 1em;
+	
+	color:  white;
+	
+}
+
+
+
+.menu {
+width:70%;
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+
+} 
+
+
+.menuliste{
+	display: table;
+    width: 500px;
+    margin: 1% auto;
+    padding: 0;
+	
+	background: -webkit-linear-gradient(deepskyblue, dodgerblue);
+    background:    -moz-linear-gradient(deepskyblue, dodgerblue);
+    background:     -ms-linear-gradient(deepskyblue, dodgerblue);
+    background:      -o-linear-gradient(deepskyblue, dodgerblue);
+    background:         linear-gradient(deepskyblue, dodgerblue);
+    background: dodgerblue;
+    
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15);
+	
+}
+
+.menuliste li{
+	    display: table-cell;	
+}
+
+.menuliste li a{
+	display: block;
+    text-align: center;
+    color: rgba(0, 0, 0, .7); 
+    text-decoration: none;
+    padding: 8px 8px 17px 8px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+    
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+    0 -1px 0 hsl(210, 100%, 32%) inset, 
+    0 -2px 0 hsl(210, 100%, 38%) inset, 
+    0 -3px 0 hsl(210, 100%, 44%) inset, 
+    0 -4px 0 hsl(210, 100%, 50%) inset, 
+    0 -5px 0 hsl(210, 100%, 60%) inset;
+    
+ transition: all .3s .1s;
+ }
+
+ul li:first-child a{
+    border-radius: 3px 0 0 3px;
+}
+ul li:last-child a{
+    border-radius: 0 3px 3px 0;
+}
+
+ul li a:hover, 
+ul li a:focus{
+	
+	transition: all .3s 0s;
+	padding: 8px 25px 17px 25px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+                0 -1px 0 hsl(210, 100%, 42%) inset, 
+                0 -2px 0 hsl(210, 100%, 48%) inset, 
+                0 -3px 0 hsl(210, 100%, 54%) inset, 
+                0 -4px 0 hsl(210, 100%, 60%) inset, 
+                0 -5px 0 hsl(210, 100%, 70%) inset; 
+} 
+
+ul li a:active{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
+footer{
+	margin-left:60%;
+	width:30%;
+	bottom:3%;
+	position: absolute;
+}
+
+.clear{
+	width:5%;
+}
+
+#place_icons{
+
+	
+	display: flex;
+    justify-content: center; 
+		
+}
+
+
+.icons{
+
+	animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari et Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    
+	 opacity: 0.7;
+}
+
+.icons:hover,
+.icons:focus{
+	animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari et Chrome */
+    -o-animation: fadein 1s; /* Opera */
+    
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 0.7;
+    }
+}
+
+
+
