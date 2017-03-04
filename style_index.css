@@ -9,9 +9,19 @@ body {
 
 	
 	 background-size:auto, auto;
+    background-attachment: fixed;
+    background-position: center center;
     
     border:solid;
 }
+
+@media only screen and (max-device-width: 480px) {
+		body{
+	           background-attachment: scroll;	     
+		}	
+    }
+
+
 
 .main{
 	margin-left: auto;
@@ -32,6 +42,8 @@ body {
 	line-height: 1em;
 	
 	color:  white;
+	
+	/*target="_blank*/
 	
 }
 
@@ -155,8 +167,6 @@ footer{
     -o-animation: fadein 4s; /* Opera */
     
 	 opacity: 0.7;
-	 filter: alpha(opacity=40); /* For IE8 and earlier */
-	 
 }
 
 .icons:hover,
@@ -205,6 +215,25 @@ footer{
     }
 }
 
+
+@media only screen and (max-device-width: 480px) {
+     body {
+         
+     }
+    .container {
+          padding: 0px 10px 5px 10px !important;
+     }
+     .header {
+          font-size: 16px !important;
+     }
+     .headline {
+          font-size: 20px !important;
+     }
+     #screenshot_image {
+          width: 275px;
+          height: 190px;
+     }
+}
 
 
 
