@@ -1,3 +1,8 @@
+html{
+	
+    border:solid;
+}
+
 body {
 	background-image: url("images/fond.jpeg");
 	background-repeat: no-repeat;
@@ -6,6 +11,8 @@ body {
 	 background-size:auto, auto;
     background-attachment: fixed;
     background-position: center center;
+    
+    border:solid;
 	
 	
 	@media only screen and (max-device-width: 480px) {
