@@ -136,16 +136,16 @@ ul li a:active{
     box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
 }
 footer{
-	margin-left:70%;
+	margin-left:60%;
 	margin-right: auto;
 	margin-top: 20%;
 	width:30%;
 	bottom:3%;
-	position: relative;
+	border:solid;
 }
 
 .clear{
-	width:5%;
+	width:20%;
 }
 
 #place_icons{	
