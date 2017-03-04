@@ -17,9 +17,13 @@ body {
 	
 	@media only screen and (max-device-width: 480px) {
 		body{
-	        background-attachment: scroll;
-	        
+	        background-attachment: scroll;	        
 		}
+		.main{
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
     }
 }
 
