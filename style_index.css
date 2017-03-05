@@ -3,8 +3,6 @@ body {
 	background-repeat: repeat-no;
 	background-attachment: fixed;
 	background-size:cover;
-	  
-	
 }
 
 .main{
@@ -41,10 +39,6 @@ body {
 	color:  white;
 	
 }
-
-
-
-
 
 footer{
 	margin-left:60%;
@@ -85,14 +79,3 @@ footer{
     opacity: 1;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
-
-
-
-
-
-
-
-
-
-
-
