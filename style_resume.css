@@ -1,11 +1,7 @@
 html{
 	margin: 0;
 	paddin : 0;
-	
-	
 }
-
-
 
 body{
 	background-image: url("images/fond.jpeg");
@@ -18,11 +14,8 @@ body{
 
 .body{
 	padding: 1%; 
-	border:solid;
-	
+	border:solid;	
 	background-color: #ffffff;
-	
-
 	border-radius:50px;
 	
 }
@@ -267,19 +260,20 @@ font-weight: 600;
 
 
 
-@media screen and (max-width: 1000px){
-	  #id{
-	
+@media screen and (max-width: 700px){
+	 body{
+	 padding:2%;
+	 }
+	 
+	 aside.bars{
+	 padding:2%;
+	 }
+	 	 
+	 #id{
 	diplay:block; 
 	margin-top:10%;
 	text-align: center;	    
-	}
-	
-	.type_value{
-	font-size:0.7em;
-	display: flex;
-	}
-	
+	}	
 	
 	il.type_value{
 	padding:0%;
@@ -289,7 +283,8 @@ font-weight: 600;
 	width:90%
 	}
 	.type_value .education{
-	padding: 0%;
+	padding: 2%;
+	margin-bottom:10px;
 	}
 	
 	.company{
@@ -298,7 +293,9 @@ font-weight: 600;
 	
 	#thales{
 	clear:both;
-	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
 	}
 	
 	
