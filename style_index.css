@@ -5,6 +5,11 @@ body {
 	background-size:cover;	
 }
 
+.body{
+	height:100%;
+	
+}
+
 .main{
 	margin-left: auto;
 	margin-right: auto;	
@@ -40,7 +45,7 @@ body {
 	
 }
 
-footer{
+.footer{
 	margin-left:60%;
 	margin-top: 20%;
 		border:solid;
