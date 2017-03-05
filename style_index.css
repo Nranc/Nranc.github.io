@@ -45,20 +45,14 @@ body {
 	
 }
 
-.footer{
-	margin-left:60%;
-	margin-top: 20%;	
-}
-
 .clear{
 	width:10%;
 }
 
 #place_icons{	
+	margin-top:10%;
 	display: flex;
     justify-content: center; 
-    
-		
 }
 
 
