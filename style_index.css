@@ -1,27 +1,11 @@
-html{
-	
-    border:solid;
-}
-
 body {
 	background-image: url("images/fond.jpeg");
 	background-repeat: no-repeat;
-
+	  
 	
-	 background-size:auto, auto;
-    background-attachment: fixed;
-    background-position: center center;
-    
-    border:solid;
 }
 
-@media only screen and (max-device-width: 480px) {
-		body{
-	           background-attachment: scroll;	     
-		}	
-		
-		
-}
+
 
 
 
@@ -130,10 +114,10 @@ ul li a:active{
     background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
     box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
 }
+
 footer{
 	margin-left:60%;
 	margin-top: 20%;
-	bottom:3%;
 	border:solid;
 }
 
@@ -144,6 +128,7 @@ footer{
 #place_icons{	
 	display: flex;
     justify-content: center; 
+    
 		
 }
 
@@ -156,6 +141,8 @@ footer{
     -o-animation: fadein 4s; /* Opera */
     
 	 opacity: 0.7;
+	 filter: alpha(opacity=40); /* For IE8 and earlier */
+	 
 }
 
 .icons:hover,
@@ -174,33 +161,45 @@ footer{
 @keyframes fadein {
     from {
         opacity:0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+        
     }
     to {
         opacity:0.7;
+	 	filter: alpha(opacity=40); /* For IE8 and earlier */
     }
 }
 @-moz-keyframes fadein { /* sur Firefox */
     from {
         opacity:0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+        
     }
     to {
         opacity:0.7;
+        filter: alpha(opacity=40); /* For IE8 and earlier */
     }
 }
 @-webkit-keyframes fadein { /* sur Safari et Chrome */
     from {
         opacity:0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+        
     }
     to {
         opacity:0.7;
+        filter: alpha(opacity=40); /* For IE8 and earlier */
     }
 }
 @-o-keyframes fadein { /* sur Opera */
     from {
         opacity:0;
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+        
     }
     to {
         opacity: 0.7;
+        filter: alpha(opacity=40); /* For IE8 and earlier */
     }
 }
 
