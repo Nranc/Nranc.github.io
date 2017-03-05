@@ -242,7 +242,7 @@ font-weight: 600;
 	
 	display: flex;	
 }
-.sport il{
+.sport p{
 	margin:2%;
 	color: #4d4d4d;
 	font-weight: 600;
@@ -272,10 +272,35 @@ font-weight: 600;
 	
 	diplay:block; 
 	margin-top:10%;
-	text-align: center;
-
-	    
+	text-align: center;	    
 	}
+	
+	.type_value{
+	font-size:0.7em;
+	display: flex;
+	}
+	
+	
+	il.type_value{
+	padding:0%;
+	}
+	
+	.type_value div{
+	width:90%
+	}
+	.type_value .education{
+	padding: 0%;
+	}
+	
+	.company{
+	display:block;	
+	}
+	
+	#thales{
+	clear:both;
+	width:90%;
+	}
+	
 	
 	#id img{
     width:25%;
