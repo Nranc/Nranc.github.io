@@ -1,10 +1,11 @@
 html{
 	margin: 0;
 	paddin : 0;
-	background-color: #879eff;
 	
 	
 }
+
+
 
 body{
 	background-image: url("images/fond.jpeg");
@@ -30,25 +31,15 @@ body{
 
 /*Header + Contacts*/
 #id{
-	margin-top:3%;
-	display: flex;
-    justify-content: center; 
-    margin-left: 10%;
-    margin-right: 10%;
+	paddin:5%;
+diplay:block; 
     
 }
-/*Photo and name*/
-.header{
-	margin-bottom: 3%;
-	padding: auto;
-	margin-right:30%;
-	
-}
 
-.header img{
+#id img{
 	 margin-left: auto;
     margin-right: auto;
-    width:80%;
+    width:20%;
     display: block;
 }
 
@@ -271,9 +262,25 @@ font-weight: 600;
 	color: #22307c;
   font-size: 1.5em;
   font-weight: bold;
- /* text-transform: uppercase;	*/
-	
+ /* text-transform: uppercase;	*/	
 }
+
+
+
+@media screen and (max-width: 800px){
+	  #id{
+	
+	diplay:block; 
+	margin:10%;
+	    
+	}
+	
+	#id img{
+	float:right;
+    width:30%;
+	}
+}
+
 
 
 
