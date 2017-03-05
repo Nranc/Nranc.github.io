@@ -1,5 +1,9 @@
 body {
 	background-image: url("images/fond.jpeg");
+	background-repeat: repeat-no;
+	background-attachment: fixed;
+	background-size:cover;
+	border:solid;
 	
 }
 
