@@ -271,14 +271,20 @@ font-weight: 600;
 	  #id{
 	
 	diplay:block; 
-	margin:10%;
+	margin-top:10%;
+	text-align: center;
+
 	    
 	}
 	
 	#id img{
-	float:right;
-    width:30%;
+    width:25%;
 	}
+	
+	ul{
+	padding-left: 0;
+	list-style-type : none;
+		}
 }
 
 
