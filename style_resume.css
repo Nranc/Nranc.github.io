@@ -8,10 +8,10 @@ html{
 
 body{
 	background-image: url("images/fond.jpeg");
-	background-repeat: no-repeat;
+	background-repeat: repeat-no;
 	background-attachment: fixed;
-	height:100%;
-	width:100%;
+	background-size:cover;
+
 	padding:10%;
 	
 }
