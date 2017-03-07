@@ -8,15 +8,24 @@ body{
 	background-repeat: repeat-no;
 	background-attachment: fixed;
 	background-size:cover;
-	padding:10%;
+	
+	
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:15%;
+	padding-right:15%;
+	
 	
 }
 
 .body{
+	clear:both;
 	padding: 1%; 
 	border:solid;	
 	background-color: #ffffff;
 	border-radius:50px;
+
+	
 	
 }
 
@@ -24,8 +33,7 @@ body{
 
 /*Header + Contacts*/
 #id{
-	paddin:5%;
-diplay:block; 
+	paddin:5%; 
     
 }
 
@@ -38,7 +46,7 @@ diplay:block;
 
 .contact{
 	
-font-size: 1.2em;
+font-size: 1em;
 font-weight: 800;
 margin:2%;
 }
@@ -49,13 +57,46 @@ margin:2%;
 }
 
 
-/*Introduce sentence / Search for a job*/
-.about{
-	font-size: 1em;	
-	margin-right:30%;
-	padding: 1%;
-	/*border: 1px solid black;*/
+
+/* About*/
+.cont{
+	padding:1%;
+	display: flex;	
 }
+
+
+/*About : h2 + text*/
+.bloc{
+	  -webkit-hyphens: auto;
+	  -moz-hyphens: auto;
+	  -ms-hyphens: auto;
+	  -o-hyphens: auto;
+	  hyphens: auto;
+	font-size: 1.3em;	/*
+	padding: 1%;
+	clear:both;
+	
+	border-radius:10px;
+	border: 1px solid black;*/
+}
+
+.bloc p{
+	width:95%;
+}
+
+/*About : coord*/
+.coord{
+	float:right;
+	width:30%;	
+	
+	font-size: 1em;
+
+}
+.coord ul{
+	padding-left: 0;
+	list-style-type : none;
+}
+
 
 
 aside{
@@ -307,6 +348,22 @@ font-weight: 600;
 	padding-left: 0;
 	list-style-type : none;
 		}
+		
+		
+	/*About*/
+	.cont{
+	display: block;
+	clear:both;
+	}
+	.coord{
+	float:none;
+	width:30%;	
+	}
+	
+	.bloc,.coord{
+	width:100%;
+	}
+	
 }
 
 

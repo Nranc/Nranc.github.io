@@ -15,6 +15,7 @@ body {
 	margin-right: auto;	
 	margin-top: 10%;
 	
+	
 	text-align:center;
 	letter-spacing: 0.5em;
 	font-family:  Futura,Trebuchet MS,Arial,sans-serif;
@@ -51,8 +52,10 @@ body {
 
 #place_icons{	
 	margin-top:10%;
+	margin-left:50%;
 	display: flex;
     justify-content: center; 
+    
 }
 
 
@@ -78,3 +81,19 @@ body {
     opacity: 1;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
+
+
+@media screen and (max-width: 600px){
+	.main h1{
+	font-size: 2em;
+	}
+	.main h2{
+	font-size: 1em;
+	}
+	
+	.icons{
+	width:30px;
+	height:30px;
+	}
+}
+
