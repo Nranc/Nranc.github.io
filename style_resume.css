@@ -72,12 +72,7 @@ margin:2%;
 	  -ms-hyphens: auto;
 	  -o-hyphens: auto;
 	  hyphens: auto;
-	font-size: 1.3em;	/*
-	padding: 1%;
-	clear:both;
-	
-	border-radius:10px;
-	border: 1px solid black;*/
+	font-size: 1.3em;
 }
 
 .bloc p{
@@ -359,8 +354,14 @@ font-weight: 600;
 	float:none;
 	width:30%;	
 	}
-	
-	.bloc,.coord{
+	.bloc p{
+	font-size: 0.8em;
+	}
+	.coord{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;}
+	.bloc{
 	width:100%;
 	}
 	
