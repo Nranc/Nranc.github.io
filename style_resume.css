@@ -1,16 +1,15 @@
 html{
-	margin: 0;
-	paddin : 0;
+
 }
 
 body{
 	background-image: url("images/fond.jpeg");
-	background-repeat: repeat-no;
+	 background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size:cover;
 	
 	
-	padding-top:5%;
+	padding-top:1%;
 	padding-bottom:5%;
 	padding-left:15%;
 	padding-right:15%;
@@ -23,12 +22,8 @@ body{
 	padding: 1%; 
 	border:solid;	
 	background-color: #ffffff;
-	border-radius:50px;
-	
+	border-radius:50px;	
 	opacity:0.9;
-
-	
-	
 }
 
 
@@ -36,11 +31,18 @@ body{
 /*Header + Contacts*/
 #id{
 	paddin:5%; 
+	font-weight: 600;
+	letter-spacing: 0.4em;
+	margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    text-align: center;
+	
     
 }
 
 #id img{
-	 margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
     width:20%;
     display: block;
@@ -109,7 +111,8 @@ aside{
 	margin-left:auto;
 	margin-right:auto;
 	clear:both;
-	margin-bottom:5%;
+	border-top: solid #bfbfbf 0.1px;
+	padding-top:7px;
 	
 	padding: 1%;
 	
@@ -196,7 +199,7 @@ ul h3
 
 .bars {
 	width: 95%;
-	float: left;
+	
 	text-align: left;
 	
 }
@@ -351,7 +354,7 @@ font-weight: 600;
 	
 	
 	#id img{
-    width:25%;
+    width:50%;
 	}
 	
 	ul{
