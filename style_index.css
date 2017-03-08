@@ -1,6 +1,6 @@
 body {
 	background-image: url("images/fond.jpeg");
-	background-repeat: repeat-no;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size:cover;	
 }
