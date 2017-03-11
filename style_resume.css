@@ -16,6 +16,8 @@ body{
 	padding-right:15%;
 	
 	
+	
+	
 }
 
 .body{
@@ -26,6 +28,7 @@ body{
 	border-radius:50px;	
 	opacity:0.9;
 }
+
 
 
 
@@ -115,9 +118,11 @@ aside{
 	border-top: solid #bfbfbf 0.1px;
 	padding-top:7px;
 	
-	padding: 1%;
-	
-	
+	padding: 1%;	
+}
+
+ul{
+	list-style-type : none;
 }
 
 .type_value{
