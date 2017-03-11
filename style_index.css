@@ -3,6 +3,7 @@ html{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%, auto;
+	min-height: 100%;
 }
 
 .body{
