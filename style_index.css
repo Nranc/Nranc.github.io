@@ -2,7 +2,7 @@ html{
 	background-image: url("images/fond.jpeg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: 100%, auto;
 }
 
 .body{
