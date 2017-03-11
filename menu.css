@@ -51,15 +51,15 @@
  transition: all .3s .1s;
  }
 
-ul li:first-child a{
+.menuliste li:first-child a{
     border-radius: 3px 0 0 3px;
 }
-ul li:last-child a{
+.menuliste li:last-child a{
     border-radius: 0 3px 3px 0;
 }
 
-ul li a:hover, 
-ul li a:focus{
+.menuliste li a:hover, 
+.menuliste li a:focus{
 	color: #ffffff;
 	font-weight:400;
 	transition: all .3s 0s;

@@ -4,9 +4,9 @@ html{
 
 body{
 	background-image: url("images/fond.jpeg");
-	 background-repeat: no-repeat;
+    background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size:cover;
+	background-size: cover;
 	
 	
 	padding-top:1%;
@@ -310,6 +310,78 @@ font-weight: 600;
 
 
 
+
+
+/********************************/
+.projectliste{
+	
+	display:bloc;
+}
+
+.projectliste{
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:1%;
+	padding-bottom:2%; 		
+	background-color: #ffffff;
+	opacity:0.9;
+	margin-bottom:10%;
+}
+.projectliste ul{
+		list-style-type : none;
+	
+}
+.projectliste ul li{
+	margin:1%;
+}
+.projectliste ul li a{
+	text-decoration: none;
+	color:#123456;
+	
+}
+
+.project{
+	clear:both;
+	padding: 5%; 
+	background-color: #ffffff;
+	border-radius:50px;	
+	opacity:0.9;
+	margin-bottom:5%;	
+}
+
+.project p{
+	width:60%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.major{
+	color:#123456;
+	font-style: oblique;
+	font-size:0.8em;
+	font-weight:500;
+	
+}
+
+.subsection{
+	display:flex;
+	justify-content:space-between;
+}
+.subsection h3{
+	padding:2%;
+	border-radius:50px;
+	background-color:#bfbfbf;
+	color:#fff;
+}
+
+.years{
+
+	color:#7f7f7f;
+	font-style: oblique;
+	font-size:1em;
+	font-weight:500;	
+}
+
 @media screen and (max-width: 1000px){
 	 body{
 	 padding:1%;
@@ -385,6 +457,11 @@ font-weight: 600;
 	.bloc{
 	width:100%;
 	}
+	
+	
+	/*projects.html*/
+	.project p{
+	width:90%;}
 	
 }
 
