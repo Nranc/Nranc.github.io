@@ -1,4 +1,10 @@
-body{
+html{
+	margin:0;
+	paddin:0;
+}
+
+body{	
+	
 	background-image: url("images/fond.jpeg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -8,10 +14,10 @@ body{
     -o-background-size: cover;
     background-size: cover;
     
-     height:100%;
+    height:100%;
  	min-height:100%;
-	
-	
+ 	
+ 	
 	padding-top:1%;
 	padding-bottom:5%;
 	padding-left:15%;
@@ -21,7 +27,7 @@ body{
 
 .body{
 	clear:both;
-	padding: 1%; 
+	
 	border:solid;	
 	background-color: #ffffff;
 	border-radius:50px;	
@@ -33,6 +39,7 @@ body{
 
 /*Header + Contacts*/
 #id{
+	margin-top:3%;
 	paddin:5%; 
 	font-weight: 600;
 	letter-spacing: 0.4em;
@@ -81,20 +88,54 @@ margin:2%;
 	  hyphens: auto;
 	font-size: 1.2em;
 }
+
 .bloc h3{
 	font-size: 1.3em;
 	font-weight: 600;
 	border-bottom: solid #bfbfbf 0.1px;
-	padding-bottom:7px;
-	
-	
+	padding-bottom:7px;	
 }
 
 .bloc p{
 	width:95%;
 }
 
+
+#bot{
+	width: 80%;	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+	margin-bottom:5%;
+	text-align:center;
+	
+}
+
+
+.button{
+	border-radius:50px;
+	padding:25px;
+	color: #ffffff;
+	background: #123456;
+	text-decoration: none;
+	list-style-type : none;	
+}
+
+.button:hover{
+	border-radius:50px;
+	padding:25px;
+	color: #123456;
+	background: #ffffff;
+	text-decoration: none;
+	list-style-type : none;	
+	
+	border:solid;
+	
+}
+
+
 /*About : coord*/
+/*
 .coord{
 	float:right;
 	width:30%;	
@@ -106,7 +147,7 @@ margin:2%;
 	padding-left: 0;
 	list-style-type : none;
 }
-
+*/
 
 
 aside{
@@ -320,7 +361,7 @@ font-weight: 600;
 /********************************/
 .projectliste{
 	
-	display:bloc;
+
 }
 
 .projectliste{
@@ -334,10 +375,13 @@ font-weight: 600;
 }
 .projectliste ul{
 		list-style-type : none;
+			
 	
 }
 .projectliste ul li{
-	margin:1%;
+	margin-left:2%;
+	margin-bottom:2%;
+	display:block;
 }
 .projectliste ul li a{
 	text-decoration: none;
@@ -363,7 +407,7 @@ font-weight: 600;
 .major{
 	color:#123456;
 	font-style: oblique;
-	font-size:0.8em;
+	font-size:0.7em;
 	font-weight:500;
 	
 }
@@ -388,6 +432,7 @@ font-weight: 600;
 }
 
 @media screen and (max-width: 1000px){
+	/*Resume*/
 	 body{
 	 padding:1%;
 	 }
@@ -445,10 +490,6 @@ font-weight: 600;
 	display: block;
 	clear:both;
 	}
-	.coord{
-	float:none;
-	width:30%;	
-	}
 	.bloc p{
 	font-size: 0.9em;
 	}
@@ -456,9 +497,6 @@ font-weight: 600;
 	font-size: 1em;
 	}
 	
-	.coord{
-	margin-top:5%;
-	width:100%;}
 	.bloc{
 	width:100%;
 	}
@@ -467,6 +505,21 @@ font-weight: 600;
 	/*projects.html*/
 	.project p{
 	width:90%;}
+	
+	.project{
+	margin-bottom:20%;
+	}
+	
+	.projectliste{
+	margin-bottom:10%;
+	}
+	
+	.subsection h3{
+	font-size:1em;
+	text-align:center;
+	}
+	
+	
 	
 }
 
