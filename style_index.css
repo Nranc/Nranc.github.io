@@ -90,7 +90,7 @@ html{
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-
+/* Mobile */
 @media screen and (max-width: 600px){
 	.main h1{
 	font-size: 2em;
